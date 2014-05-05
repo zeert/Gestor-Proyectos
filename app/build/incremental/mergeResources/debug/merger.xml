@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="back"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/back.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bienvenido"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/bienvenido.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fondohome"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/fondohome.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_event"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/ic_action_event.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_home"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/ic_action_home.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_labels"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/ic_action_labels.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_place"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/ic_action_place.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_settings"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/ic_action_settings.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_share"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/ic_action_share.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_star"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/ic_action_star.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_user"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/ic_action_user.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/ic_drawer.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="icono"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/icono.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="profile"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/profile.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="space"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/space.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="user_icon"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/user_icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="userpic"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-mdpi/userpic.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="header"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/layout/header.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="home"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/layout/home.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="itm"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/layout/itm.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="profile"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/layout/profile.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="action_settings" >Configuracion
+                </string>
+                <string name="app_name" >Gestor de Proyectos
+                </string>
+
+                <string-array name="nav_options" >
+                    <item>
+Home
+                    </item>
+                    <item>
+Perfil
+                    </item>
+                    <item>
+Usuarios
+                    </item>
+                    <item>
+Editar Usuarios
+                    </item>
+                    <item>
+Crear Proyecto
+                    </item>
+                    <item>
+Crear Proveedores
+                    </item>
+                    <item>
+Crear Tareas
+                    </item>
+                    <item>
+Reportes
+                    </item>
+                    <item>
+Configuracion
+                    </item>
+                </string-array>
+
+                <array name="navigation_iconos" >
+                    <item>
+@drawable/ic_action_home
+                    </item>
+                    <item>
+@drawable/ic_action_star
+                    </item>
+                    <item>
+@drawable/ic_action_user
+                    </item>
+                    <item>
+@drawable/ic_action_event
+                    </item>
+                    <item>
+@drawable/ic_action_place
+                    </item>
+                    <item>
+@drawable/ic_action_labels
+                    </item>
+                    <item>
+@drawable/ic_action_settings
+                    </item>
+                    <item>
+@drawable/ic_action_share
+                    </item>
+                </array>
+            </file>
+            <file
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+            </file>
+            <file
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="users"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/layout/users.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="edit_users"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/layout/edit_users.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="tarea"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/layout/tarea.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="proveedor"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/layout/proveedor.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="report"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/layout/report.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="proyecto"
+                path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/layout/proyecto.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/build/res/rs/debug" />
+        <source path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/build/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/debug/res" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string-array name="nav_options">
+        <item>Home</item>
+        <item>Perfil</item>
+        <item>Usuarios</item>
+        <item>Editar Usuarios</item>
+        <item>Crear Proyecto</item>
+        <item>Crear Proveedores</item>
+        <item>Crear Tareas</item>
+        <item>Reportes</item>
+        <item>Configuracion</item>
+    </string-array>
+
+    <array name="navigation_iconos">
+        <item>@drawable/ic_action_home</item>
+        <item>@drawable/ic_action_star</item>
+        <item>@drawable/ic_action_user</item>
+        <item>@drawable/ic_action_event</item>
+        <item>@drawable/ic_action_place</item>
+        <item>@drawable/ic_action_labels</item>
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_action_share</item>
+    </array>
+    <!-- From: file:/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_settings">Configuracion</string>
+    <string name="app_name">Gestor de Proyectos</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>
