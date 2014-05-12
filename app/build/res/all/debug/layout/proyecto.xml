@@ -7,70 +7,30 @@
 
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Creacion de Nuevo Proyecto"
-        android:id="@+id/textView"
-        android:layout_gravity="center_horizontal" />
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text=""
-        android:id="@+id/textView2" />
+        android:text="Listado Proyectos"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
 
-    <Space
+    <ListView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.10" />
-
-    <EditText
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:hint="Nombre Proyecto" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText2"
-        android:hint="Tipo" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText3"
-        android:hint="Valor Estimado" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="date"
-        android:ems="10"
-        android:id="@+id/editText5"
-        android:hint="Fecha Inicio" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="date"
-        android:ems="10"
-        android:id="@+id/editText4"
-        android:hint="Fecha de Entrega" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.90" />
+        android:layout_height="343dp"
+        android:id="@+id/listView"
+        android:layout_gravity="center_horizontal"
+        android:choiceMode="multipleChoice"
+        android:headerDividersEnabled="true"
+        android:footerDividersEnabled="true" />
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Crear Nuevo Proyecto"
-        android:id="@+id/button" />
+        android:text="Nuevo Proyecto"
+        android:id="@+id/button"
+        android:textStyle="bold" />
 
 
 </LinearLayout>
-<!-- From: file:/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/layout/proyecto.xml -->
+<!-- From: file:/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/layout/proyecto.xml -->

@@ -30,7 +30,14 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
 
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="105dp"
+            android:layout_above="@+id/n"
+            android:layout_alignParentLeft="true"></RadioGroup>
+
     </RelativeLayout>
 
 </LinearLayout>
-<!-- From: file:/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/layout/report.xml -->
+<!-- From: file:/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/layout/report.xml -->

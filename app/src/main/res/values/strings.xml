@@ -6,7 +6,7 @@
     <!-- Lista de titulos de navegacion-->    
     <string-array name="nav_options">
         <item>Home</item>
-        <item>Perfil</item>
+        <item>Proveedores</item>
         <item>Usuarios</item>
         <item>Editar Usuarios</item>
         <item>Crear Proyecto</item>

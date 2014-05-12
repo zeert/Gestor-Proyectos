@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -117,7 +118,7 @@ public class MainActivity extends Activity {
             fragment = new HomeFragment();
             break;
         case 2:
-            fragment = new ProfileFragment();
+            fragment = new ProvidersFragment();
             break;
         case 3:
             fragment = new UsersFragment();
@@ -186,5 +187,10 @@ public class MainActivity extends Activity {
         }
         // Handle your other action bar items...
         return super.onOptionsItemSelected(item);
+    }
+
+    public void lanzarNuevoProveedor(View view){
+        Intent i = new Intent(this, NewProveedor.class);
+        startActivity(i);
     }
 }

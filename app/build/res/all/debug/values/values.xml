@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string-array name="nav_options">
         <item>Home</item>
-        <item>Perfil</item>
+        <item>Proveedores</item>
         <item>Usuarios</item>
         <item>Editar Usuarios</item>
         <item>Crear Proyecto</item>
@@ -26,18 +26,18 @@
         <item>@drawable/ic_action_settings</item>
         <item>@drawable/ic_action_share</item>
     </array>
-    <!-- From: file:/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/values/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="action_settings">Configuracion</string>
     <string name="app_name">Gestor de Proyectos</string>
     <string name="hello_world">Hello world!</string>
-    <!-- From: file:/Users/reyz/AndroidStudioProjects/SlideNavigation/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Light">
