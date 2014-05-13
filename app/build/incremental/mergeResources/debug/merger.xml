@@ -104,6 +104,11 @@
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
+                name="crea_roles"
+                path="/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/layout/crea_roles.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="edit_users"
                 path="/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/layout/edit_users.xml"
                 qualifiers=""
@@ -126,6 +131,21 @@
             <file
                 name="main"
                 path="/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="nueva_tarea"
+                path="/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/layout/nueva_tarea.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="nuevo_proveedor"
+                path="/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/layout/nuevo_proveedor.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="nuevo_proyecto"
+                path="/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/layout/nuevo_proyecto.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -288,26 +308,6 @@ Configuracion
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
-            <file
-                name="nuevo_proveedor"
-                path="/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/layout/nuevo_proveedor.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="crea_roles"
-                path="/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/layout/crea_roles.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="nuevo_proyecto"
-                path="/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/layout/nuevo_proyecto.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="nueva_tarea"
-                path="/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/layout/nueva_tarea.xml"
-                qualifiers=""
-                type="layout" />
         </source>
         <source path="/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/build/res/rs/debug" />
         <source path="/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/build/res/generated/debug" />
