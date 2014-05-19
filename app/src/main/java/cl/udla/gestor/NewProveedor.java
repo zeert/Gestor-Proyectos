@@ -11,19 +11,6 @@ import android.view.ViewGroup;
  * Created by reyz on 12-05-14.
  */
 
-/*public class NewProveedor extends Fragment {
-    @Override
-    public onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-
-        setContentView(R.layout.nuevo_proveedor);
-
-
-    }
-}
-*/
-
 public class NewProveedor extends Fragment {
 
     public NewProveedor(){}

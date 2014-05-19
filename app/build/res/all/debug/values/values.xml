@@ -8,11 +8,8 @@
         <item>Home</item>
         <item>Proveedores</item>
         <item>Usuarios</item>
-        <item>Editar Usuarios</item>
         <item>Crear Proyecto</item>
-        <item>Crear Proveedores</item>
-        <item>Crear Tareas</item>
-        <item>Reportes</item>
+        <item>Crear Tarea</item>
         <item>Configuracion</item>
     </string-array>
 
@@ -23,8 +20,10 @@
         <item>@drawable/ic_action_event</item>
         <item>@drawable/ic_action_place</item>
         <item>@drawable/ic_action_labels</item>
+        <!--
         <item>@drawable/ic_action_settings</item>
         <item>@drawable/ic_action_share</item>
+        -->
     </array>
     <!-- From: file:/Users/reyz/AndroidStudioProjects/Gestor-Proyectos/app/src/main/res/values/dimens.xml -->
     <eat-comment />

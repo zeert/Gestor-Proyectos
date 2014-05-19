@@ -3,18 +3,22 @@ package cl.udla.gestor;
 import java.util.ArrayList;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.preference.DialogPreference;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -61,9 +65,9 @@ public class MainActivity extends Activity {
 	        //Crear Proveedores
 	        NavItms.add(new Item_objct(titulos[4], NavIcons.getResourceId(4, -1)));
 	        //Crear Tareas
-	        NavItms.add(new Item_objct(titulos[5], NavIcons.getResourceId(5, -1)));
+	      /*  NavItms.add(new Item_objct(titulos[5], NavIcons.getResourceId(5, -1)));
 	        //Reportes
-	        NavItms.add(new Item_objct(titulos[6], NavIcons.getResourceId(6, -1)));
+	        NavItms.add(new Item_objct(titulos[6], NavIcons.getResourceId(6, -1)));*/
 	      
 	        //Declaramos y seteamos nuestro adaptador al cual le pasamos el array con los titulos	       
 	        NavAdapter= new NavigationAdapter(this,NavItms);
@@ -104,7 +108,8 @@ public class MainActivity extends Activity {
 	            	MostrarFragment(position);
 	            }
 	        });
-	        
+
+
 	        //Cuando la aplicacion cargue por defecto mostrar la opcion Home
 	        MostrarFragment(1);
 	}
@@ -118,27 +123,27 @@ public class MainActivity extends Activity {
             fragment = new HomeFragment();
             break;
         case 2:
-            fragment = new ProvidersFragment();
+            fragment = new NewProveedor();
             break;
         case 3:
-            fragment = new UsersFragment();
+            fragment = new EditUsersFragment();
             break;
-            case 4:
-                fragment = new EditUsersFragment();
-                break;
-            case 5:
+        case 4:
                 fragment = new ProjectFragment();
                 break;
-            case 6:
-                fragment = new ProvidersFragment();
+        case 5:
+            fragment = new TaskFragment();
+            break;
+        case 6:
+            fragment = new ProvidersFragment();
                 break;
-            case 7:
-                fragment = new TaskFragment();
-                break;
-            case 8:
+           /* case 7:
+
+                break;*/
+            /*case 8:
                 fragment = new ReportFragment();
                 break;
-
+*/
      
  
         default:
@@ -190,7 +195,208 @@ public class MainActivity extends Activity {
     }
 
     public void lanzarNuevoProveedor(View view){
-        Intent i = new Intent(this, NewProveedor.class);
-        startActivity(i);
+        switch (view.getId()) {
+            case R.id.btn_nuevo_proveedor:
+                AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+                alertDialog.setTitle("CREAR NUEVO PROVEEDOR");
+                alertDialog.setMessage("Deberia Lanzar la Activity de Nuevo Proveedor");
+                alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+                  public void onClick(DialogInterface dialog, int which) {
+
+                  }
+                });
+                alertDialog.setIcon(R.drawable.ic_launcher);
+                alertDialog.show();
+
+
+        }
+    }
+
+    // Nuevo ROL
+
+    public void newRol(View view){
+        switch (view.getId()) {
+            case R.id.crea_rol:
+                AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+                alertDialog.setTitle("CREAR NUEVO ROL");
+                alertDialog.setMessage("Deberia Lanzar la Activity de Nuevo ROL");
+                alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+                alertDialog.setIcon(R.drawable.ic_launcher);
+                alertDialog.show();
+
+
+        }
+    }
+
+    // Edita Usuario
+
+    public void editUser(View view){
+        switch (view.getId()) {
+            case R.id.btn_edit_user:
+                AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+                alertDialog.setTitle("EDITAR NUEVO USUARIO");
+                alertDialog.setMessage("Deberia Lanzar la Activity de EDITAR NUEVO USUARIO");
+                alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+                alertDialog.setIcon(R.drawable.ic_launcher);
+                alertDialog.show();
+
+
+        }
+    }
+
+
+    // OK tarea
+
+
+    public void okTarea(View view){
+        switch (view.getId()) {
+            case R.id.btn_ok_tarea:
+                AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+                alertDialog.setTitle("OK TAREA");
+                alertDialog.setMessage("Deberia Lanzar la Activity de OK TAREA");
+                alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+                alertDialog.setIcon(R.drawable.ic_launcher);
+                alertDialog.show();
+
+
+        }
+    }
+
+    // SUB TAREA
+
+    public void subTarea(View view){
+        switch (view.getId()) {
+            case R.id.btn_sub_tarea:
+                AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+                alertDialog.setTitle("CREAR SUB TAREA");
+                alertDialog.setMessage("Deberia Lanzar la Activity de CREAR SUB TAREA");
+                alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+                alertDialog.setIcon(R.drawable.ic_launcher);
+                alertDialog.show();
+        }
+    }
+
+    // new TAREA
+
+    public void newTarea(View view){
+        switch (view.getId()) {
+            case R.id.btn_new_tarea:
+                AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+                alertDialog.setTitle("CREAR NUEVA TAREA");
+                alertDialog.setMessage("Deberia Lanzar la Activity de CREAR NUEVA TAREA");
+                alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+                alertDialog.setIcon(R.drawable.ic_launcher);
+                alertDialog.show();
+        }
+    }
+
+    // SUB TAREA
+
+    public void sigTarea(View view){
+        switch (view.getId()) {
+            case R.id.btn_sig_tarea:
+                AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+                alertDialog.setTitle("SIGUIENTE TAREA");
+                alertDialog.setMessage("Deberia Lanzar la Activity de SIGUIENTE TAREA");
+                alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+                alertDialog.setIcon(R.drawable.ic_launcher);
+                alertDialog.show();
+        }
+    }
+
+    // OK PROYECTO
+
+    public void okProyecto(View view){
+        switch (view.getId()) {
+            case R.id.btn_ok_proyecto:
+                AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+                alertDialog.setTitle("OK PROYECTO");
+                alertDialog.setMessage("Deberia Lanzar la Activity de OK PROYECTO");
+                alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+                alertDialog.setIcon(R.drawable.ic_launcher);
+                alertDialog.show();
+        }
+    }
+
+    // SUB TAREA
+
+    public void tareaProyecto(View view){
+        switch (view.getId()) {
+            case R.id.btn_tarea_proyecto:
+                AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+                alertDialog.setTitle("TAREAS POR PROYECTO");
+                alertDialog.setMessage("Deberia Lanzar la Activity de CREACION DE TAREAS POR PROYECTO");
+                alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+                alertDialog.setIcon(R.drawable.ic_launcher);
+                alertDialog.show();
+        }
+    }
+
+    // FORMA PROYECTO
+
+    public void formaProyecto(View view){
+        switch (view.getId()) {
+            case R.id.btn_forma_proyecto:
+                AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+                alertDialog.setTitle("FORMA DE PROYECTO");
+                alertDialog.setMessage("Deberia Lanzar la Activity de FORMA DE PROYECTO");
+                alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+                alertDialog.setIcon(R.drawable.ic_launcher);
+                alertDialog.show();
+        }
+    }
+
+    // FORMA PROYECTO
+
+    public void reporteProyecto(View view){
+        switch (view.getId()) {
+                case R.id.btn_reporte_proyecto:
+                AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+                alertDialog.setTitle("REPORTE PROYECTO");
+                alertDialog.setMessage("Deberia Lanzar la Activity de REPORTE PROYECTO");
+                alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+                alertDialog.setIcon(R.drawable.ic_launcher);
+                alertDialog.show();
+        }
     }
 }

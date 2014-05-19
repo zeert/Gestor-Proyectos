@@ -17,7 +17,7 @@ public class TaskFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.tarea, container, false);
+        View rootView = inflater.inflate(R.layout.nueva_tarea, container, false);
 
         return rootView;
     }

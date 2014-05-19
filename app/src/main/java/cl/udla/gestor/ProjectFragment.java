@@ -17,7 +17,7 @@ public class ProjectFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.proyecto, container, false);
+        View rootView = inflater.inflate(R.layout.nuevo_proyecto, container, false);
 
         return rootView;
     }

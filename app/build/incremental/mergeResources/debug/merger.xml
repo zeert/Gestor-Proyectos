@@ -212,19 +212,10 @@ Proveedores
 Usuarios
                     </item>
                     <item>
-Editar Usuarios
-                    </item>
-                    <item>
 Crear Proyecto
                     </item>
                     <item>
-Crear Proveedores
-                    </item>
-                    <item>
-Crear Tareas
-                    </item>
-                    <item>
-Reportes
+Crear Tarea
                     </item>
                     <item>
 Configuracion
@@ -250,12 +241,10 @@ Configuracion
                     <item>
 @drawable/ic_action_labels
                     </item>
-                    <item>
-@drawable/ic_action_settings
-                    </item>
-                    <item>
-@drawable/ic_action_share
-                    </item>
+                    <!--
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_action_share</item>
+                    -->
                 </array>
             </file>
             <file

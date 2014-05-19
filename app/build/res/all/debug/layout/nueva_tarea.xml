@@ -124,26 +124,30 @@
         android:layout_below="@+id/TextView01">
 
         <Button
-            android:id="@+id/btn_nuevo_rol"
+            android:id="@+id/btn_ok_tarea"
             android:layout_width="0.0dip" android:layout_height="fill_parent"
             android:text="OK"
-            android:layout_weight="1.0" />
+            android:layout_weight="1.0"
+            android:onClick="okTarea" />
 
         <Button
-            android:id="@+id/btn_edit_rol"
+            android:id="@+id/btn_new_tarea"
             android:layout_width="0.0dip" android:layout_height="fill_parent"
             android:text="Nuevo"
-            android:layout_weight="1.0" />
+            android:layout_weight="1.0"
+            android:onClick="newTarea" />
         <Button
-            android:id="@+id/btn_elim_rol"
+            android:id="@+id/btn_sub_tarea"
             android:layout_width="0.0dip" android:layout_height="fill_parent"
             android:text="Sub Tarea"
-            android:layout_weight="1.0" />
+            android:layout_weight="1.0"
+            android:onClick="subTarea" />
         <Button
-            android:id="@+id/btn_elim_rol"
+            android:id="@+id/btn_sig_tarea"
             android:layout_width="0.0dip" android:layout_height="fill_parent"
             android:text="Sig"
-            android:layout_weight="1.0" />
+            android:layout_weight="1.0"
+            android:onClick="sigTarea" />
 
     </LinearLayout>
 </LinearLayout>

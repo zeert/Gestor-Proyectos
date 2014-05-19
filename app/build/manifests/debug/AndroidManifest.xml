@@ -10,9 +10,6 @@
                 
             </intent-filter>
         </activity>
-        <activity android:name="cl.udla.gestor.NewProveedor">
-
-        </activity>
 
     </application>
 

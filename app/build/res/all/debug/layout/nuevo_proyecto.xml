@@ -104,26 +104,30 @@
         android:layout_below="@+id/TextView01">
 
         <Button
-            android:id="@+id/btn_nuevo_rol"
+            android:id="@+id/btn_ok_proyecto"
             android:layout_width="0.0dip" android:layout_height="fill_parent"
             android:text="OK"
-            android:layout_weight="1.0" />
+            android:layout_weight="1.0"
+            android:onClick="okProyecto" />
 
         <Button
-            android:id="@+id/btn_edit_rol"
+            android:id="@+id/btn_tarea_proyecto"
             android:layout_width="0.0dip" android:layout_height="fill_parent"
             android:text="Tareas"
-            android:layout_weight="1.0" />
+            android:layout_weight="1.0"
+            android:onClick="tareaProyecto" />
         <Button
-            android:id="@+id/btn_elim_rol"
+            android:id="@+id/btn_forma_proyecto"
             android:layout_width="0.0dip" android:layout_height="fill_parent"
             android:text="Forma"
-            android:layout_weight="1.0" />
+            android:layout_weight="1.0"
+            android:onClick="formaProyecto" />
         <Button
-            android:id="@+id/btn_elim_rol"
+            android:id="@+id/btn_reporte_proyecto"
             android:layout_width="0.0dip" android:layout_height="fill_parent"
             android:text="Reporte"
-            android:layout_weight="1.0" />
+            android:layout_weight="1.0"
+            android:onClick="reporteProyecto" />
 
     </LinearLayout>
 </LinearLayout>

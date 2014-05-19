@@ -10,6 +10,11 @@ package cl.udla.gestor;
 public final class R {
     public static final class array {
         public static final int nav_options=0x7f040000;
+        /** 
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_action_share</item>
+        
+         */
         public static final int navigation_iconos=0x7f040001;
     }
     public static final class attr {
@@ -42,10 +47,20 @@ public final class R {
         public static final int TextView01=0x7f090008;
         public static final int backgrd=0x7f090011;
         public static final int btn_edit_rol=0x7f09000a;
+        public static final int btn_edit_user=0x7f090010;
         public static final int btn_elim_rol=0x7f09000b;
+        public static final int btn_forma_proyecto=0x7f090033;
+        public static final int btn_new_tarea=0x7f090024;
+        public static final int btn_nuevo_proveedor=0x7f09002e;
         public static final int btn_nuevo_rol=0x7f090009;
-        public static final int button=0x7f090010;
-        public static final int button1=0x7f090033;
+        public static final int btn_ok_proyecto=0x7f090031;
+        public static final int btn_ok_tarea=0x7f090023;
+        public static final int btn_reporte_proyecto=0x7f090034;
+        public static final int btn_sig_tarea=0x7f090026;
+        public static final int btn_sub_tarea=0x7f090025;
+        public static final int btn_tarea_proyecto=0x7f090032;
+        public static final int button=0x7f090038;
+        public static final int button1=0x7f09003d;
         public static final int checkBox=0x7f09001c;
         public static final int checkBox2=0x7f09001d;
         public static final int checkBox3=0x7f09001e;
@@ -58,40 +73,40 @@ public final class R {
         public static final int complex_tarea_baja=0x7f09001b;
         public static final int complex_tarea_media=0x7f09001a;
         public static final int content_frame=0x7f090016;
-        public static final int costo_proyecto=0x7f09002b;
+        public static final int costo_proyecto=0x7f090030;
         public static final int costo_tarea=0x7f090022;
-        public static final int crea_rol=0x7f090029;
+        public static final int crea_rol=0x7f09002d;
         public static final int drawer_layout=0x7f090015;
         public static final int editText=0x7f090003;
         public static final int editText2=0x7f09000c;
         public static final int editText3=0x7f09000d;
         public static final int editText4=0x7f09000e;
         public static final int editText5=0x7f09000f;
-        public static final int fono_contacto=0x7f090026;
+        public static final int fono_contacto=0x7f09002a;
         public static final int icon=0x7f090013;
         public static final int imageView1=0x7f090012;
-        public static final int item_refresh=0x7f090034;
-        public static final int item_save=0x7f090035;
-        public static final int listView=0x7f09002e;
+        public static final int item_refresh=0x7f09003e;
+        public static final int item_save=0x7f09003f;
+        public static final int listView=0x7f090037;
         public static final int lista=0x7f090017;
-        public static final int mail_contacto=0x7f090027;
-        public static final int n=0x7f09002d;
-        public static final int nom_contacto=0x7f090025;
-        public static final int nom_proveedor=0x7f090023;
+        public static final int mail_contacto=0x7f09002b;
+        public static final int n=0x7f090036;
+        public static final int nom_contacto=0x7f090029;
+        public static final int nom_proveedor=0x7f090027;
         public static final int nom_rol=0x7f090002;
         public static final int nom_tarea=0x7f090018;
-        public static final int space=0x7f09002f;
-        public static final int space2=0x7f090030;
-        public static final int space3=0x7f090031;
-        public static final int space4=0x7f090032;
+        public static final int space=0x7f090039;
+        public static final int space2=0x7f09003a;
+        public static final int space3=0x7f09003b;
+        public static final int space4=0x7f09003c;
         public static final int textView=0x7f090001;
-        public static final int textView1=0x7f09002c;
+        public static final int textView1=0x7f090035;
         public static final int textView2=0x7f090000;
         public static final int textView3=0x7f090004;
-        public static final int textView4=0x7f090028;
-        public static final int tiempo_proyecto=0x7f09002a;
+        public static final int textView4=0x7f09002c;
+        public static final int tiempo_proyecto=0x7f09002f;
         public static final int tiempo_tarea=0x7f090021;
-        public static final int tipo_proveedor=0x7f090024;
+        public static final int tipo_proveedor=0x7f090028;
         public static final int title_item=0x7f090014;
     }
     public static final class layout {

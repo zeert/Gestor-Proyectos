@@ -112,7 +112,8 @@
         android:layout_height="wrap_content"
         android:text="Crear Rol"
         android:id="@+id/crea_rol"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:onClick="newRol" />
 
     <Space
         android:layout_width="match_parent"
@@ -123,7 +124,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Crear Nuevo Proveedor"
-        android:id="@+id/button" />
+        android:id="@+id/btn_nuevo_proveedor"
+        android:onClick="lanzarNuevoProveedor" />
 
 
 </LinearLayout>
